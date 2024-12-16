@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Work Email Finder</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Work Email Finder</h1>
+        <form action="/find-email" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="company">Company Website:</label>
+            <input type="text" id="company" name="company" required>
+            <button type="submit">Find Email</button>
+        </form>
+        <a href="/download-emails">Download All Emails</a>
+    </div>
+</body>
+</html>
